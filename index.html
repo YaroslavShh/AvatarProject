@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Avatar</title>
+</head>
+
+<body>
+    <section class="cover all">
+        <div class="cover__container-video container-video">
+            <video autoplay loop muted>
+                <source src="src/Earth_Celebmark.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="avatar__wrapper">
+            <iframe src="src/irina_1_VP8.webm" allow="autoplay" style="display: none;"></iframe>
+            <video autoplay muted id="avatar">
+                <source src="src/irina_1_VP8.webm">
+            </video>
+        </div>
+        <a href="index.html" class="menu__logo">
+            <img src="src/SelebMark.png" alt="SelebMark">
+        </a>
+        <ul class="menu-item">
+            <li>
+                <a id="skip" href="main.html" class="menu-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" fill="#575FD5" viewBox="0 0 45 45">
+                        <path d="M16 37.85v-28l22 14Z" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" id="btn" class="btn-again">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="44" width="44" fill="#575FD5" viewBox="0 0 50 50">
+                        <path
+                            d="M16.4 42H9q-1.2 0-2.1-.9Q6 40.2 6 39V24q0-3.75 1.425-7.025 1.425-3.275 3.85-5.7 2.425-2.425 5.7-3.85Q20.25 6 24 6q3.75 0 7.025 1.425 3.275 1.425 5.7 3.85 2.425 2.425 3.85 5.7Q42 20.25 42 24v15q0 1.2-.9 2.1-.9.9-2.1.9h-7.4V27.2H39V24q0-6.25-4.375-10.625T24 9q-6.25 0-10.625 4.375T9 24v3.2h7.4Z" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
